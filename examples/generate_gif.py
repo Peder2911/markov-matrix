@@ -21,5 +21,5 @@ def frame(_: int):
 
 
 
-ani = animation.FuncAnimation(fig, frame, frames = 100, init_func = init, blit = True, interval = 10)
+ani = animation.FuncAnimation(fig, frame, frames = 100, init_func = init, blit = True, interval = 5)
 ani.save("images/example.gif")

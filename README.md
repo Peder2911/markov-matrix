@@ -1,7 +1,7 @@
 
 # Markov Matrix
 
-[](images/example.gif)
+![Example image](images/example.gif)
 
 This package provides a simple, extensible interface for simulating series of
 matrices, where the value of each cell is the result of a, potentially
