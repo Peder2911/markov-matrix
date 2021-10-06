@@ -24,4 +24,4 @@ def matrix_chain(
         for idx, current in enumerate(cells):
             current_p = base_tm[current, :]
             cells[idx] = np.random.choice(states, p = current_p)
-        yield mat
+        yield mat.copy()
